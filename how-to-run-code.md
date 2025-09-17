@@ -1,3 +1,5 @@
+I would like to thank the article https://www.geeksforgeeks.org/cpp/cpp-program-to-print-prime-numbers-from-1-to-n/, from which I borrowed a prime number generating algorithm that I did not feel the need to recreate from scratch.
+
 Assuming that the C++ compiler has been installed and configured on your machine, fprimes.cpp can be compiled into an executable of the same name with
 
 ```g++ -o fprimes fprimes.cpp```
