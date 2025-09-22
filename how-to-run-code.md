@@ -4,7 +4,7 @@ Assuming that the C++ compiler has been installed and configured on your machine
 
 ```g++ -o fprimes fprimes.cpp```
 
-Prior to running the executable, an integer parameter $n$ must be chosen, such that the conjecture outlined in the-math-behind-it.md is tested on even integers up to $2*n$. For example, if the parameter is taken to be 5000, then the executable would be run with the command
+Prior to running the executable, an integer parameter $n$ must be chosen, such that the conjecture outlined in the-math-behind-it.md is tested on even integers up to $2n$. For example, if the parameter is taken to be 5000, then the executable would be run with the command
 
 ```fprimes 5000```
 
