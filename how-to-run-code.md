@@ -8,6 +8,6 @@ Prior to running the executable, an integer parameter $n$ must be chosen, such t
 
 ```fprimes 5000```
 
-This will output two sections of output; the first returns the smallest $n$ such that $(a+n)$ and $(a-n)$ are prime, where $a$ is half of every even integer up to $n$. The second half of the output sorts and eliminates duplicates from the first half of the output, returning all unique values of $n$ such that $(a+n)$ and $(a-n)$ are prime for some $a \le n$. Below is an example output for the second half:
+This will output two sections of output; the first returns the smallest $k$ such that $(a+k)$ and $(a-k)$ are prime, where $a$ is half of every even integer up to $2n$. The second half of the output sorts and eliminates duplicates from the first half of the output, returning all sorted unique values of $k$ such that $(a+k)$ and $(a-k)$ are prime for some $a \le n$. Below is an example output for the second half:
 
 <img width="1919" height="1019" alt="Screenshot 2025-09-13 082243" src="https://github.com/user-attachments/assets/1074916c-e816-486b-b708-f88618ef1e7a" />
